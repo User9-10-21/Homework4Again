@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="ButtonDarkTheme">
+        <item name="android:backgroundTint">@color/red</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">#FF000000</item>
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ButtonLightTheme">
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="LightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>
